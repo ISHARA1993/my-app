@@ -37,5 +37,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 
 
 ## Docker CMD
-docker run -d -p 3000:3000 my-nextjs-app:latest
+docker build -t my-nextjs-app:latest .
 docker run -d -p 3000:3000 my-nextjs-app:latest
