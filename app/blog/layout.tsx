@@ -1,5 +1,4 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import SideNav from "@/app/ui/components/sidenav";
 
 export default function Layout({
     children,
@@ -7,8 +6,7 @@ export default function Layout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="en">
-            <h1>Blog</h1><hr />
+        <html lang="en"><SideNav />
             {children}
         </html>
     );
