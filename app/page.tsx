@@ -14,6 +14,7 @@ export default function Home() {
       </div>
       <div>
         <SideNav2 />
+        <br />
       </div>
     </main>
   );

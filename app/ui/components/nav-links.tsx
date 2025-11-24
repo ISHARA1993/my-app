@@ -24,7 +24,7 @@ const links = [
   { name: 'Contact', href: '/blog/contact', icon: EnvelopeIcon },
 ];
 
-export default async function NavLinks() {
+export default function NavLinks() {
   const pathname = usePathname();
   return (
     <>
