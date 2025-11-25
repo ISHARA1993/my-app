@@ -7,9 +7,13 @@ export default function Layout({
 }>) {
     return (
         <div style={{ display: 'flex' }}>
-            <SideNav />
-            <br />
-            {children}
+            <div style={{ width: "10%" }}>
+                <SideNav />
+            </div>
+            <div>
+                {children}
+            </div>
+
         </div>
     );
 }
